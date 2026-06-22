@@ -69,7 +69,7 @@ function BookingTable({ bookings: list }: { bookings: typeof bookings }) {
                   <td className="px-5 py-4">
                     <div className="flex gap-2">
                       <span title="Deposit" className={`w-2 h-2 rounded-full mt-1 ${b.depositPaid ? "bg-green-500" : "bg-amber-400"}`} />
-                      <FileText className={`w-4 h-4 ${b.contractSigned ? "text-green-500" : "text-amber-400"}`} title={b.contractSigned ? "Contract signed" : "Contract pending"} />
+                      <span title={b.contractSigned ? "Contract signed" : "Contract pending"}><FileText className={`w-4 h-4 ${b.contractSigned ? "text-green-500" : "text-amber-400"}`} /></span>
                     </div>
                   </td>
                   <td className="px-5 py-4">
