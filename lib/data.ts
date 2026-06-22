@@ -10,7 +10,7 @@ export const yachts: Yacht[] = [
     berths: 6,
     year: 2019,
     pricePerDay: 480,
-    homePort: "Piraeus",
+    homePort: "Corfu",
     description: "A beautifully maintained Sun Odyssey 440 offering comfortable blue-water cruising. Perfect for families or groups seeking a balance of performance and comfort across the Ionian Islands.",
     highlights: ["Air conditioning", "Watermaker", "Bow thruster", "Full cockpit enclosure"],
     specs: {
